@@ -32,7 +32,6 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
         return count;
     }
 
-
     private boolean union(int[] groups, int first, int second) {
         int firstGroup = find(groups, first);
         int secondGroup = find(groups, second);
