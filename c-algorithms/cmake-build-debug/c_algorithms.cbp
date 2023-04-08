@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_algorithms"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_algorithms">
+				<Option output="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/c_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bfs"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bitmanipulation"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/linkedlist"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/slidingwindow"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/sorting"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_algorithms"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_algorithms/fast">
+				<Option output="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/c_algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bfs"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bitmanipulation"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/linkedlist"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/slidingwindow"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/sorting"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree"/>
+					<Add directory="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/michael/Desktop/algorithms/c-algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/Solution.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/Solution.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/Convert1DArrayInto2DArray.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/Convert1DArrayInto2DArray.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/DefuseTheBomb.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/DefuseTheBomb.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/FindSubarraysWithEqualSum.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/FindSubarraysWithEqualSum.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/Finding3DigitEvenNumbers.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/Finding3DigitEvenNumbers.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/GetMaximumInGeneratedArray.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/GetMaximumInGeneratedArray.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/IncreasingTripletSubsequence.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/IncreasingTripletSubsequence.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/MedianOfTwoSortedArrays.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/MedianOfTwoSortedArrays.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/SmallestRangeI.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/array/SmallestRangeI.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bfs/NearestExitFromEntranceInMaze.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bfs/NearestExitFromEntranceInMaze.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/LeftmostColumnWithAtLeastAOne.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/LeftmostColumnWithAtLeastAOne.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/MinimumOperationsToMakeAllArrayElementsEqual.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/MinimumOperationsToMakeAllArrayElementsEqual.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/SuccessfulPairsOfSpellsAndPotions.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/binarysearch/SuccessfulPairsOfSpellsAndPotions.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bitmanipulation/FindTheOriginalArrayOfPrefixXOR.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/bitmanipulation/FindTheOriginalArrayOfPrefixXOR.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/OrderedStream.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/OrderedStream.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/PhoneDirectory.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/PhoneDirectory.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/TicTacToe.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/design/TicTacToe.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/AllPathsFromSourceToTarget.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/AllPathsFromSourceToTarget.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CheckKnightTourConfiguration.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CheckKnightTourConfiguration.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CountServersThatCommunicate.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CountServersThatCommunicate.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CountSubIsland.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/CountSubIsland.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/FindEventualSafeStates.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/FindEventualSafeStates.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/FloodFill.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/FloodFill.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/JumpGameIII.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/JumpGameIII.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/KeysAndRooms.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/KeysAndRooms.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MaxAreaOfIsland.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MaxAreaOfIsland.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MinimumGeneticMutation.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MinimumGeneticMutation.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MinimumJumpsToReachHome.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/MinimumJumpsToReachHome.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfClosedIslands.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfClosedIslands.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfIslands.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfIslands.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfProvinces.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/NumberOfProvinces.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/ReverseOddLevelsOfBinaryTree.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/dfs/ReverseOddLevelsOfBinaryTree.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/CountNumberOfDistinctIntegersAfterReverseOperations.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/CountNumberOfDistinctIntegersAfterReverseOperations.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/LargestPositiveIntegerThatExistsWithItsNegative.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/LargestPositiveIntegerThatExistsWithItsNegative.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/MostFrequentEvenElement.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/hashtable/MostFrequentEvenElement.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/linkedlist/DeleteTheMiddleNodeOfLinkedList.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/linkedlist/DeleteTheMiddleNodeOfLinkedList.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/LargestPerimeterTriangle.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/LargestPerimeterTriangle.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/MinimumAdditionToMakeIntegerBeautiful.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/MinimumAdditionToMakeIntegerBeautiful.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/PowerOfThree.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/PowerOfThree.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/QueriesOfNumberOfPointsInsideACircle.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/QueriesOfNumberOfPointsInsideACircle.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/ReorderedPowerOfTwo.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/ReorderedPowerOfTwo.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/WaterAndJugProblem.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/WaterAndJugProblem.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/XofKindDeckOfCards.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/math/XofKindDeckOfCards.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/CellsWithOddValuesInAMatrix.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/CellsWithOddValuesInAMatrix.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/DiagonalTraverse.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/DiagonalTraverse.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/ImageSmoother.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/ImageSmoother.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/MaxIncreaseToKeepCitySkyline.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/MaxIncreaseToKeepCitySkyline.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/MaximumSumOfAnHourglass.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/MaximumSumOfAnHourglass.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/NumberOfLaserBeamsInABank.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/matrix/NumberOfLaserBeamsInABank.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum/MinimumSubsequenceInNonIncreasingOrder.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum/MinimumSubsequenceInNonIncreasingOrder.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum/WidestPairOfIndicesWithEqualRangeSum.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/prefixsum/WidestPairOfIndicesWithEqualRangeSum.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/AvailableCapturesForRook.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/AvailableCapturesForRook.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/AverageWaitingTime.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/AverageWaitingTime.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/CountUnguardedCellsInTheGrid.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/CountUnguardedCellsInTheGrid.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/FindWinnerOnTicTacToeGame.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/FindWinnerOnTicTacToeGame.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/IncrementalMemoryLeak.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/IncrementalMemoryLeak.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/MaximumNumberOfCoinsYouCanGet.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/simulation/MaximumNumberOfCoinsYouCanGet.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/sorting/MaximumMatchingOfPlayersWithTrainers.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/sorting/MaximumMatchingOfPlayersWithTrainers.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/BreakPalindrome.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/BreakPalindrome.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CheckDistancesBetweenSameLetter.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CheckDistancesBetweenSameLetter.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CheckIfTheSentenceIsPangram.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CheckIfTheSentenceIsPangram.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CrawlerLogFolder.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/CrawlerLogFolder.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/DivideStringIntoGroupsOfSizeK.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/DivideStringIntoGroupsOfSizeK.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/IncreasingDecreasingString.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/IncreasingDecreasingString.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/LengthOfTheLongestAlphabeticalContinuousSubstring.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/LengthOfTheLongestAlphabeticalContinuousSubstring.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/MinimumChangesToMakeAlternatingBinaryString.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/MinimumChangesToMakeAlternatingBinaryString.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/NumberOfValidClockTimes.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/NumberOfValidClockTimes.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/OptimalPartitionOfString.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/OptimalPartitionOfString.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/RemoveOutermostParentheses.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/RemoveOutermostParentheses.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/WordsWithinTwoEditsOfDictionary.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/string/WordsWithinTwoEditsOfDictionary.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures/ListNode.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures/ListNode.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures/TreeNode.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/structures/TreeNode.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/BinaryTreeLongestConsecutiveSequence.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/BinaryTreeLongestConsecutiveSequence.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/CheckIfStringIsValidSequenceFromRootToLeavesPath.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/CheckIfStringIsValidSequenceFromRootToLeavesPath.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/CountUniValueSubtrees.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/tree/CountUniValueSubtrees.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/NumberOfOperationsToMakeNetworkConnected.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/NumberOfOperationsToMakeNetworkConnected.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/RedundantConnection.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/RedundantConnection.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/SatisfiabilityOfEqualityEquations.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/SatisfiabilityOfEqualityEquations.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/SentenceSimilarityII.cpp">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/src/main/c++/unionfind/SentenceSimilarityII.h">
+			<Option target="c_algorithms"/>
+		</Unit>
+		<Unit filename="/Users/michael/Desktop/algorithms/c-algorithms/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
