@@ -5,5 +5,5 @@
 #include "Solution.h"
 
 int main() {
-    std::cout << "flight!";
+    std::cout << "flight";
 }
