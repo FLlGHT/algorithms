@@ -1,4 +1,0 @@
-"/Users/michael/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/michael/CLionProjects/algorithms!/c-algorithms -B /Users/michael/CLionProjects/algorithms!/c-algorithms/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/michael/CLionProjects/algorithms!/c-algorithms/cmake-build-debug
