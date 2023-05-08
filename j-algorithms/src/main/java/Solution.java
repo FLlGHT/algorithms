@@ -4,7 +4,9 @@
  */
 public class Solution {
 
+
+
   public static void main(String[] args) {
-    System.out.println("flight");
+    Solution solution = new Solution();
   }
 }
