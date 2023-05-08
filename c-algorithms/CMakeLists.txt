@@ -185,4 +185,12 @@ add_executable(c_algorithms
         src/main/c++/unionfind/SentenceSimilarityII.cpp
         src/main/c++/unionfind/SentenceSimilarityII.h
         src/main/c++/Solution.cpp
-        src/main/c++/Solution.h src/main/c++/matrix/PrimeInDiagonal.cpp src/main/c++/matrix/PrimeInDiagonal.h src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.cpp src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.h)
+        src/main/c++/Solution.h
+        src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.cpp
+        src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.h
+        src/main/c++/array/MaximumSumWithExactlyKElements.cpp
+        src/main/c++/array/MaximumSumWithExactlyKElements.h
+        src/main/c++/array/DetermineTheWinnerOfBowlingGame.cpp
+        src/main/c++/array/DetermineTheWinnerOfBowlingGame.h
+        src/main/c++/array/NumberOfAdjacentElementsWithTheSameColor.cpp
+        src/main/c++/array/NumberOfAdjacentElementsWithTheSameColor.h)
