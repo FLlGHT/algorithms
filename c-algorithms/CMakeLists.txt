@@ -193,4 +193,4 @@ add_executable(c_algorithms
         src/main/c++/array/DetermineTheWinnerOfBowlingGame.cpp
         src/main/c++/array/DetermineTheWinnerOfBowlingGame.h
         src/main/c++/array/NumberOfAdjacentElementsWithTheSameColor.cpp
-        src/main/c++/array/NumberOfAdjacentElementsWithTheSameColor.h src/main/c++/sorting/HIndex.cpp src/main/c++/sorting/HIndex.h src/main/c++/dp/UncrossedLines.cpp src/main/c++/dp/UncrossedLines.h)
+        src/main/c++/array/NumberOfAdjacentElementsWithTheSameColor.h src/main/c++/sorting/HIndex.cpp src/main/c++/sorting/HIndex.h src/main/c++/dp/UncrossedLines.cpp src/main/c++/dp/UncrossedLines.h src/main/c++/array/FindThePrefixCommonArrayOfTwoArrays.cpp src/main/c++/array/FindThePrefixCommonArrayOfTwoArrays.h)
