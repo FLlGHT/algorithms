@@ -11,6 +11,7 @@
   <modules>
     <module>j-algorithms</module>
     <module>c-algorithms</module>
+    <module>python-solutions</module>
   </modules>
 
   <properties>
