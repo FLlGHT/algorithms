@@ -9,8 +9,8 @@
     <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>j-algorithms</module>
-    <module>c-algorithms</module>
+    <module>java-solutions</module>
+    <module>cpp-solutions</module>
     <module>python-solutions</module>
   </modules>
 
