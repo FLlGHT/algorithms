@@ -44,20 +44,14 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class VideoSharingPlatform {
 
-  private final Map<Integer, String> videos;
-  private final Map<Integer, Integer> views;
-  private final Map<Integer, Integer> likes;
-  private final Map<Integer, Integer> dislikes;
-  private final PriorityQueue<Integer> queue;
-  private final AtomicInteger maxGeneratedId;
+  private final Map<Integer, String> videos = new HashMap<>();
+  private final Map<Integer, Integer> views = new HashMap<>();
+  private final Map<Integer, Integer> likes = new HashMap<>();
+  private final Map<Integer, Integer> dislikes = new HashMap<>();
+  private final PriorityQueue<Integer> idQueue = new PriorityQueue<>();
+  private int maxGeneratedId = 0;
 
   public VideoSharingPlatform() {
-    this.videos = new HashMap<>();
-    this.views = new HashMap<>();
-    this.likes = new HashMap<>();
-    this.dislikes = new HashMap<>();
-    this.queue = new PriorityQueue<>();
-    this.maxGeneratedId = new AtomicInteger(0);
   }
 
   public int upload(String video) {
@@ -68,15 +62,15 @@ public class VideoSharingPlatform {
   }
 
   private int generateId() {
-    if (!queue.isEmpty())
-      return queue.poll();
+    if (!idQueue.isEmpty())
+      return idQueue.poll();
 
-    return maxGeneratedId.getAndIncrement();
+    return maxGeneratedId++;
   }
 
   public void remove(int videoId) {
     if (videos.containsKey(videoId)) {
-      queue.offer(videoId);
+      idQueue.offer(videoId);
       videos.remove(videoId);
     }
   }
@@ -91,15 +85,13 @@ public class VideoSharingPlatform {
   }
 
   public void like(int videoId) {
-    if (videos.containsKey(videoId)) {
+    if (videos.containsKey(videoId))
       likes.merge(videoId, 1, Integer::sum);
-    }
   }
 
   public void dislike(int videoId) {
-    if (videos.containsKey(videoId)) {
+    if (videos.containsKey(videoId))
       dislikes.merge(videoId, 1, Integer::sum);
-    }
   }
 
   public int[] getLikesAndDislikes(int videoId) {
