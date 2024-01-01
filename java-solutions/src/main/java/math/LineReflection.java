@@ -47,9 +47,9 @@ public class LineReflection {
 
     for (Point point : uniquePoints) {
       int x = point.x(), y = point.y();
-      int reflectX = doubleMiddle - x;
+      int reflectedX = doubleMiddle - x;
 
-      if (!uniquePoints.contains(new Point(reflectX, y)))
+      if (!uniquePoints.contains(new Point(reflectedX, y)))
         return false;
     }
 
