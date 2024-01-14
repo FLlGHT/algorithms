@@ -112,4 +112,5 @@ add_executable(c_algorithms
         array/DetermineTheWinnerOfBowlingGame.h
         array/NumberOfAdjacentElementsWithTheSameColor.h sorting/HIndex.h dp/UncrossedLines.h array/FindThePrefixCommonArrayOfTwoArrays.h dp/SolvingQuestionsWithBrainpower.h
         dp/BestTimeToBuyAndSellStockWithCooldown.h
-        dp/MaximumSumCircularSubarray.h)
+        dp/MaximumSumCircularSubarray.h
+        math/FindTheLargestAreaOfSquareInsideTwoRectangles.h)
