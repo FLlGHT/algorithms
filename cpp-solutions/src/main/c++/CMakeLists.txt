@@ -113,4 +113,5 @@ add_executable(c_algorithms
         array/NumberOfAdjacentElementsWithTheSameColor.h sorting/HIndex.h dp/UncrossedLines.h array/FindThePrefixCommonArrayOfTwoArrays.h dp/SolvingQuestionsWithBrainpower.h
         dp/BestTimeToBuyAndSellStockWithCooldown.h
         dp/MaximumSumCircularSubarray.h
-        math/FindTheLargestAreaOfSquareInsideTwoRectangles.h)
+        math/FindTheLargestAreaOfSquareInsideTwoRectangles.h
+        dp/LongestNonDecreasingSubarrayFromTwoArrays.h)
