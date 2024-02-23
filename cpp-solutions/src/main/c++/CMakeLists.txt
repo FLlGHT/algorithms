@@ -3,186 +3,113 @@ project(c_algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(src/main/c++)
-include_directories(src/main/c++/array)
-include_directories(src/main/c++/bfs)
-include_directories(src/main/c++/binarysearch)
-include_directories(src/main/c++/bitmanipulation)
-include_directories(src/main/c++/design)
-include_directories(src/main/c++/dfs)
-include_directories(src/main/c++/hashtable)
-include_directories(src/main/c++/linkedlist)
-include_directories(src/main/c++/math)
-include_directories(src/main/c++/matrix)
-include_directories(src/main/c++/prefixsum)
-include_directories(src/main/c++/simulation)
-include_directories(src/main/c++/slidingwindow)
-include_directories(src/main/c++/sorting)
-include_directories(src/main/c++/string)
-include_directories(src/main/c++/structures)
-include_directories(src/main/c++/tree)
-include_directories(src/main/c++/unionfind)
+include_directories(.)
+include_directories(array)
+include_directories(bfs)
+include_directories(binarysearch)
+include_directories(bitmanipulation)
+include_directories(design)
+include_directories(dfs)
+include_directories(hashtable)
+include_directories(linkedlist)
+include_directories(math)
+include_directories(matrix)
+include_directories(prefixsum)
+include_directories(simulation)
+include_directories(slidingwindow)
+include_directories(sorting)
+include_directories(string)
+include_directories(structures)
+include_directories(tree)
+include_directories(unionfind)
+include_directories(dp)
 
 add_executable(c_algorithms
-        src/main/c++/array/Convert1DArrayInto2DArray.cpp
-        src/main/c++/array/Convert1DArrayInto2DArray.h
-        src/main/c++/array/DefuseTheBomb.cpp
-        src/main/c++/array/DefuseTheBomb.h
-        src/main/c++/array/Finding3DigitEvenNumbers.cpp
-        src/main/c++/array/Finding3DigitEvenNumbers.h
-        src/main/c++/array/FindSubarraysWithEqualSum.cpp
-        src/main/c++/array/FindSubarraysWithEqualSum.h
-        src/main/c++/array/GetMaximumInGeneratedArray.cpp
-        src/main/c++/array/GetMaximumInGeneratedArray.h
-        src/main/c++/array/IncreasingTripletSubsequence.cpp
-        src/main/c++/array/IncreasingTripletSubsequence.h
-        src/main/c++/array/MedianOfTwoSortedArrays.cpp
-        src/main/c++/array/MedianOfTwoSortedArrays.h
-        src/main/c++/array/SmallestRangeI.cpp
-        src/main/c++/array/SmallestRangeI.h
-        src/main/c++/bfs/NearestExitFromEntranceInMaze.cpp
-        src/main/c++/bfs/NearestExitFromEntranceInMaze.h
-        src/main/c++/binarysearch/LeftmostColumnWithAtLeastAOne.cpp
-        src/main/c++/binarysearch/LeftmostColumnWithAtLeastAOne.h
-        src/main/c++/binarysearch/MinimumOperationsToMakeAllArrayElementsEqual.cpp
-        src/main/c++/binarysearch/MinimumOperationsToMakeAllArrayElementsEqual.h
-        src/main/c++/binarysearch/SuccessfulPairsOfSpellsAndPotions.cpp
-        src/main/c++/binarysearch/SuccessfulPairsOfSpellsAndPotions.h
-        src/main/c++/bitmanipulation/FindTheOriginalArrayOfPrefixXOR.cpp
-        src/main/c++/bitmanipulation/FindTheOriginalArrayOfPrefixXOR.h
-        src/main/c++/design/OrderedStream.cpp
-        src/main/c++/design/OrderedStream.h
-        src/main/c++/design/PhoneDirectory.cpp
-        src/main/c++/design/PhoneDirectory.h
-        src/main/c++/design/TicTacToe.cpp
-        src/main/c++/design/TicTacToe.h
-        src/main/c++/dfs/AllPathsFromSourceToTarget.cpp
-        src/main/c++/dfs/AllPathsFromSourceToTarget.h
-        src/main/c++/dfs/CheckKnightTourConfiguration.cpp
-        src/main/c++/dfs/CheckKnightTourConfiguration.h
-        src/main/c++/dfs/CountServersThatCommunicate.cpp
-        src/main/c++/dfs/CountServersThatCommunicate.h
-        src/main/c++/dfs/CountSubIsland.cpp
-        src/main/c++/dfs/CountSubIsland.h
-        src/main/c++/dfs/FindEventualSafeStates.cpp
-        src/main/c++/dfs/FindEventualSafeStates.h
-        src/main/c++/dfs/FloodFill.cpp
-        src/main/c++/dfs/FloodFill.h
-        src/main/c++/dfs/JumpGameIII.cpp
-        src/main/c++/dfs/JumpGameIII.h
-        src/main/c++/dfs/KeysAndRooms.cpp
-        src/main/c++/dfs/KeysAndRooms.h
-        src/main/c++/dfs/MaxAreaOfIsland.cpp
-        src/main/c++/dfs/MaxAreaOfIsland.h
-        src/main/c++/dfs/MinimumGeneticMutation.cpp
-        src/main/c++/dfs/MinimumGeneticMutation.h
-        src/main/c++/dfs/MinimumJumpsToReachHome.cpp
-        src/main/c++/dfs/MinimumJumpsToReachHome.h
-        src/main/c++/dfs/NumberOfClosedIslands.cpp
-        src/main/c++/dfs/NumberOfClosedIslands.h
-        src/main/c++/dfs/NumberOfIslands.cpp
-        src/main/c++/dfs/NumberOfIslands.h
-        src/main/c++/dfs/NumberOfProvinces.cpp
-        src/main/c++/dfs/NumberOfProvinces.h
-        src/main/c++/dfs/ReverseOddLevelsOfBinaryTree.cpp
-        src/main/c++/dfs/ReverseOddLevelsOfBinaryTree.h
-        src/main/c++/hashtable/CountNumberOfDistinctIntegersAfterReverseOperations.cpp
-        src/main/c++/hashtable/CountNumberOfDistinctIntegersAfterReverseOperations.h
-        src/main/c++/hashtable/LargestPositiveIntegerThatExistsWithItsNegative.cpp
-        src/main/c++/hashtable/LargestPositiveIntegerThatExistsWithItsNegative.h
-        src/main/c++/hashtable/MostFrequentEvenElement.cpp
-        src/main/c++/hashtable/MostFrequentEvenElement.h
-        src/main/c++/linkedlist/DeleteTheMiddleNodeOfLinkedList.cpp
-        src/main/c++/linkedlist/DeleteTheMiddleNodeOfLinkedList.h
-        src/main/c++/math/LargestPerimeterTriangle.cpp
-        src/main/c++/math/LargestPerimeterTriangle.h
-        src/main/c++/math/MinimumAdditionToMakeIntegerBeautiful.cpp
-        src/main/c++/math/MinimumAdditionToMakeIntegerBeautiful.h
-        src/main/c++/math/PowerOfThree.cpp
-        src/main/c++/math/PowerOfThree.h
-        src/main/c++/math/QueriesOfNumberOfPointsInsideACircle.cpp
-        src/main/c++/math/QueriesOfNumberOfPointsInsideACircle.h
-        src/main/c++/math/ReorderedPowerOfTwo.cpp
-        src/main/c++/math/ReorderedPowerOfTwo.h
-        src/main/c++/math/WaterAndJugProblem.cpp
-        src/main/c++/math/WaterAndJugProblem.h
-        src/main/c++/math/XofKindDeckOfCards.cpp
-        src/main/c++/math/XofKindDeckOfCards.h
-        src/main/c++/matrix/CellsWithOddValuesInAMatrix.cpp
-        src/main/c++/matrix/CellsWithOddValuesInAMatrix.h
-        src/main/c++/matrix/DiagonalTraverse.cpp
-        src/main/c++/matrix/DiagonalTraverse.h
-        src/main/c++/matrix/ImageSmoother.cpp
-        src/main/c++/matrix/ImageSmoother.h
-        src/main/c++/matrix/MaximumSumOfAnHourglass.cpp
-        src/main/c++/matrix/MaximumSumOfAnHourglass.h
-        src/main/c++/matrix/MaxIncreaseToKeepCitySkyline.cpp
-        src/main/c++/matrix/MaxIncreaseToKeepCitySkyline.h
-        src/main/c++/matrix/NumberOfLaserBeamsInABank.cpp
-        src/main/c++/matrix/NumberOfLaserBeamsInABank.h
-        src/main/c++/prefixsum/MinimumSubsequenceInNonIncreasingOrder.cpp
-        src/main/c++/prefixsum/MinimumSubsequenceInNonIncreasingOrder.h
-        src/main/c++/prefixsum/WidestPairOfIndicesWithEqualRangeSum.cpp
-        src/main/c++/prefixsum/WidestPairOfIndicesWithEqualRangeSum.h
-        src/main/c++/simulation/AvailableCapturesForRook.cpp
-        src/main/c++/simulation/AvailableCapturesForRook.h
-        src/main/c++/simulation/AverageWaitingTime.cpp
-        src/main/c++/simulation/AverageWaitingTime.h
-        src/main/c++/simulation/CountUnguardedCellsInTheGrid.cpp
-        src/main/c++/simulation/CountUnguardedCellsInTheGrid.h
-        src/main/c++/simulation/FindWinnerOnTicTacToeGame.cpp
-        src/main/c++/simulation/FindWinnerOnTicTacToeGame.h
-        src/main/c++/simulation/IncrementalMemoryLeak.cpp
-        src/main/c++/simulation/IncrementalMemoryLeak.h
-        src/main/c++/simulation/MaximumNumberOfCoinsYouCanGet.cpp
-        src/main/c++/simulation/MaximumNumberOfCoinsYouCanGet.h
-        src/main/c++/slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.cpp
-        src/main/c++/slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.h
-        src/main/c++/sorting/MaximumMatchingOfPlayersWithTrainers.cpp
-        src/main/c++/sorting/MaximumMatchingOfPlayersWithTrainers.h
-        src/main/c++/string/BreakPalindrome.cpp
-        src/main/c++/string/BreakPalindrome.h
-        src/main/c++/string/CheckDistancesBetweenSameLetter.cpp
-        src/main/c++/string/CheckDistancesBetweenSameLetter.h
-        src/main/c++/string/CheckIfTheSentenceIsPangram.cpp
-        src/main/c++/string/CheckIfTheSentenceIsPangram.h
-        src/main/c++/string/CrawlerLogFolder.cpp
-        src/main/c++/string/CrawlerLogFolder.h
-        src/main/c++/string/DivideStringIntoGroupsOfSizeK.cpp
-        src/main/c++/string/DivideStringIntoGroupsOfSizeK.h
-        src/main/c++/string/IncreasingDecreasingString.cpp
-        src/main/c++/string/IncreasingDecreasingString.h
-        src/main/c++/string/LengthOfTheLongestAlphabeticalContinuousSubstring.cpp
-        src/main/c++/string/LengthOfTheLongestAlphabeticalContinuousSubstring.h
-        src/main/c++/string/MinimumChangesToMakeAlternatingBinaryString.cpp
-        src/main/c++/string/MinimumChangesToMakeAlternatingBinaryString.h
-        src/main/c++/string/NumberOfValidClockTimes.cpp
-        src/main/c++/string/NumberOfValidClockTimes.h
-        src/main/c++/string/OptimalPartitionOfString.cpp
-        src/main/c++/string/OptimalPartitionOfString.h
-        src/main/c++/string/RemoveOutermostParentheses.cpp
-        src/main/c++/string/RemoveOutermostParentheses.h
-        src/main/c++/string/WordsWithinTwoEditsOfDictionary.cpp
-        src/main/c++/string/WordsWithinTwoEditsOfDictionary.h
-        src/main/c++/structures/ListNode.cpp
-        src/main/c++/structures/ListNode.h
-        src/main/c++/structures/TreeNode.cpp
-        src/main/c++/structures/TreeNode.h
-        src/main/c++/tree/BinaryTreeLongestConsecutiveSequence.cpp
-        src/main/c++/tree/BinaryTreeLongestConsecutiveSequence.h
-        src/main/c++/tree/CheckIfStringIsValidSequenceFromRootToLeavesPath.cpp
-        src/main/c++/tree/CheckIfStringIsValidSequenceFromRootToLeavesPath.h
-        src/main/c++/tree/CountUniValueSubtrees.cpp
-        src/main/c++/tree/CountUniValueSubtrees.h
-        src/main/c++/unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.cpp
-        src/main/c++/unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.h
-        src/main/c++/unionfind/NumberOfOperationsToMakeNetworkConnected.cpp
-        src/main/c++/unionfind/NumberOfOperationsToMakeNetworkConnected.h
-        src/main/c++/unionfind/RedundantConnection.cpp
-        src/main/c++/unionfind/RedundantConnection.h
-        src/main/c++/unionfind/SatisfiabilityOfEqualityEquations.cpp
-        src/main/c++/unionfind/SatisfiabilityOfEqualityEquations.h
-        src/main/c++/unionfind/SentenceSimilarityII.cpp
-        src/main/c++/unionfind/SentenceSimilarityII.h
-        src/main/c++/Solution.cpp
-        src/main/c++/Solution.h src/main/c++/matrix/PrimeInDiagonal.cpp src/main/c++/matrix/PrimeInDiagonal.h src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.cpp src/main/c++/slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.h src/main/c++/array/MaximumSumWithExactlyKElements.cpp src/main/c++/array/MaximumSumWithExactlyKElements.h src/main/c++/array/DetermineTheWinnerOfBowlingGame.cpp src/main/c++/array/DetermineTheWinnerOfBowlingGame.h)
+        array/Convert1DArrayInto2DArray.h
+        array/DefuseTheBomb.h
+        array/Finding3DigitEvenNumbers.h
+        array/FindSubarraysWithEqualSum.h
+        array/GetMaximumInGeneratedArray.h
+        array/IncreasingTripletSubsequence.h
+        array/MedianOfTwoSortedArrays.h
+        array/SmallestRangeI.h
+        bfs/NearestExitFromEntranceInMaze.h
+        binarysearch/LeftmostColumnWithAtLeastAOne.h
+        binarysearch/MinimumOperationsToMakeAllArrayElementsEqual.h
+        binarysearch/SuccessfulPairsOfSpellsAndPotions.h
+        bitmanipulation/FindTheOriginalArrayOfPrefixXOR.h
+        design/OrderedStream.h
+        design/PhoneDirectory.h
+        design/TicTacToe.h
+        dfs/AllPathsFromSourceToTarget.h
+        dfs/CheckKnightTourConfiguration.h
+        dfs/CountServersThatCommunicate.h
+        dfs/CountSubIsland.h
+        dfs/FindEventualSafeStates.h
+        dfs/FloodFill.h
+        dfs/JumpGameIII.h
+        dfs/KeysAndRooms.h
+        dfs/MaxAreaOfIsland.h
+        dfs/MinimumGeneticMutation.h
+        dfs/MinimumJumpsToReachHome.h
+        dfs/NumberOfClosedIslands.h
+        dfs/NumberOfIslands.h
+        dfs/NumberOfProvinces.h
+        dfs/ReverseOddLevelsOfBinaryTree.h
+        hashtable/CountNumberOfDistinctIntegersAfterReverseOperations.h
+        hashtable/LargestPositiveIntegerThatExistsWithItsNegative.h
+        hashtable/MostFrequentEvenElement.h
+        linkedlist/DeleteTheMiddleNodeOfLinkedList.h
+        math/LargestPerimeterTriangle.h
+        math/MinimumAdditionToMakeIntegerBeautiful.h
+        math/PowerOfThree.h
+        math/QueriesOfNumberOfPointsInsideACircle.h
+        math/ReorderedPowerOfTwo.h
+        math/WaterAndJugProblem.h
+        math/XofKindDeckOfCards.h
+        matrix/CellsWithOddValuesInAMatrix.h
+        matrix/DiagonalTraverse.h
+        matrix/ImageSmoother.h
+        matrix/MaximumSumOfAnHourglass.h
+        matrix/MaxIncreaseToKeepCitySkyline.h
+        matrix/NumberOfLaserBeamsInABank.h
+        prefixsum/MinimumSubsequenceInNonIncreasingOrder.h
+        prefixsum/WidestPairOfIndicesWithEqualRangeSum.h
+        simulation/AvailableCapturesForRook.h
+        simulation/AverageWaitingTime.h
+        simulation/CountUnguardedCellsInTheGrid.h
+        simulation/FindWinnerOnTicTacToeGame.h
+        simulation/IncrementalMemoryLeak.h
+        simulation/MaximumNumberOfCoinsYouCanGet.h
+        slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.h
+        sorting/MaximumMatchingOfPlayersWithTrainers.h
+        string/BreakPalindrome.h
+        string/CheckDistancesBetweenSameLetter.h
+        string/CheckIfTheSentenceIsPangram.h
+        string/CrawlerLogFolder.h
+        string/DivideStringIntoGroupsOfSizeK.h
+        string/IncreasingDecreasingString.h
+        string/LengthOfTheLongestAlphabeticalContinuousSubstring.h
+        string/MinimumChangesToMakeAlternatingBinaryString.h
+        string/NumberOfValidClockTimes.h
+        string/OptimalPartitionOfString.h
+        string/RemoveOutermostParentheses.h
+        string/WordsWithinTwoEditsOfDictionary.h
+        structures/ListNode.h
+        structures/TreeNode.h
+        tree/BinaryTreeLongestConsecutiveSequence.h
+        tree/CheckIfStringIsValidSequenceFromRootToLeavesPath.h
+        tree/CountUniValueSubtrees.h
+        unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.h
+        unionfind/NumberOfOperationsToMakeNetworkConnected.h
+        unionfind/RedundantConnection.h
+        unionfind/SatisfiabilityOfEqualityEquations.h
+        unionfind/SentenceSimilarityII.h
+        Solution.cpp
+        Solution.h
+        slidingwindow/LongestSubarrayOf1sAfterDeletingOneElement.h
+        array/MaximumSumWithExactlyKElements.h
+        array/DetermineTheWinnerOfBowlingGame.h
+        array/NumberOfAdjacentElementsWithTheSameColor.h sorting/HIndex.h dp/UncrossedLines.h array/FindThePrefixCommonArrayOfTwoArrays.h dp/SolvingQuestionsWithBrainpower.h
+        dp/BestTimeToBuyAndSellStockWithCooldown.h
+        dp/MaximumSumCircularSubarray.h)
